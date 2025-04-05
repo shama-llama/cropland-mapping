@@ -1,0 +1,21 @@
+[project]
+name = "cropland-mapping"
+version = "0.1.0"
+description = "Project that uses ConvLSTM for Crop Mapping"
+readme = "README.md"
+requires-python = ">=3.12.11"
+dependencies = [
+    "h5py>=3.14.0",
+    "ipykernel>=6.30.0",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "pillow>=11.3.0",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "tqdm>=4.67.1",
+]
+[tool.setuptools]
+py-modules = []
